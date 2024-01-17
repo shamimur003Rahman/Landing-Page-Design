@@ -13,17 +13,19 @@ body{
 }
 nav{
     display:flex;
-  justify-content:space-between;
+    justify-content:space-between;
     align-items: center;
-  position: relative;
+    position: relative;
    
 }
 div img{
    
     justify-content: center;
     align-items: center;
-   position: absolute;
-    
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
 }
 
  nav h3{
@@ -32,13 +34,13 @@ div img{
     align-items: center;
     word-spacing: 10px;
     
-    margin-left:70px;
+    margin-left:20px;
     font-size:30px;
 }
 nav >ul {
     display: flex;
     justify-content: space-between;
-   align-items: center;
+    align-items: center;
 } 
 nav li{
     list-style: none;
@@ -48,6 +50,12 @@ nav li{
 
 nav li a{
     text-decoration: none;
+}
+.banner-image{
+    width:100%;
+    
+   
+   
 }
 .home{
     color:#FF5400;
@@ -69,22 +77,32 @@ nav li a{
     font-size:20px;
     font-weight: 400;
 }
-.Contact{
+.contact{
     color:#424247;
     font-size:20px;
     font-weight:400; 
 }
-.banner-image{
-    width:100%;
-    margin-top:10px ;
 
-}
 .travel{
     color: #FF5400;
-    font: size 400px;
+    font-size: 40px;
     font-weight: 800;
     margin-left: 10px;;
 }
-@media screen and (max-width:600px){
-    
+.banner-text{
+font-size:40px;
+font-weight: 800;
+}
+.banner-content{
+font-size:15px;
+font-weight:400;
+}
+.parent{
+    text-align: center;
+}
+.btn-primary{
+    background-color:#FF5400;
+    color:white;
+    font-size:12px;
+    font-weight:700;
 }
