@@ -6,3 +6,85 @@ font-family: 'Mulish', sans-serif;
 font-family: 'Work Sans', sans-serif;
 }
 
+body{
+    background-color: rgba(255, 144, 14, 0.10);
+    padding:60px 120px;
+    
+}
+nav{
+    display:flex;
+  justify-content:space-between;
+    align-items: center;
+  position: relative;
+   
+}
+div img{
+   
+    justify-content: center;
+    align-items: center;
+   position: absolute;
+    
+}
+
+ nav h3{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    word-spacing: 10px;
+    
+    margin-left:70px;
+    font-size:30px;
+}
+nav >ul {
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+} 
+nav li{
+    list-style: none;
+    margin-right: 40px;
+   
+}
+
+nav li a{
+    text-decoration: none;
+}
+.home{
+    color:#FF5400;
+    font-weight:700;
+    font-size:20px;
+}
+.package{
+    color:#424247;
+    font-size:20px;
+    font-weight: 400;
+}
+.testimonial{
+    color:#424247;
+    font-size:20px;
+    font-weight: 400;
+}
+.blog{
+    color:#424247;
+    font-size:20px;
+    font-weight: 400;
+}
+.Contact{
+    color:#424247;
+    font-size:20px;
+    font-weight:400; 
+}
+.banner-image{
+    width:100%;
+    margin-top:10px ;
+
+}
+.travel{
+    color: #FF5400;
+    font: size 400px;
+    font-weight: 800;
+    margin-left: 10px;;
+}
+@media screen and (max-width:600px){
+    
+}
