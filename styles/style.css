@@ -103,11 +103,11 @@ font-weight:400;
 color:black;
 }
 .parent{
-    transform: translateX(36deg);
-  text-align: center;  
+    
+text-align: center;  
 top:0;
 color:white;
-padding:10px;
+
     
 
 }
@@ -119,14 +119,50 @@ padding:10px;
    
 }
 .button{
+    margin-bottom: 60px;
     color:white;
     background-color:#FF5400;
     font-size:20px;
     font-weight:800px;
+    padding:10px;
 }
-h4{
+
+    
+h4{ 
+    margin-bottom: 30px;
     color: #131318;
     font-size:40px;
     font-weight:800px;
 }
+.tour-logo{
+    
+    align-items: center;
+    max-width:50%;
+   
 
+}
+.container{
+
+align-items: center;
+
+}
+.footer-logo{
+display: flex;
+align-items: center;
+word-spacing: 10px;
+margin-left:20px;
+font-size:30px;
+text-align: center;
+
+}
+
+.footer-image{
+    
+}
+
+/* responsive media query */
+@media screen and(max-width:600px){
+    header{
+        padding:10px;
+    }
+}
